@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class MessageController extends AbstractController
 {
     /**
-     * @Route("/message", name="message")
+     * @Route("/message", name="message_")
      */
     public function index(): Response
     {
