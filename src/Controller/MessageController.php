@@ -13,7 +13,7 @@ class MessageController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('message/index.html.twig', [
+        return $this->render('message/contact.html.twig', [
             'controller_name' => 'MessageController',
         ]);
     }
