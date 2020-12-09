@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contact{% endblock %}
+
+{% block body %}
+    <div class="container">
+        {{ form_start(form) }}
+        <div class="col-8" id="some-custom-id">
+            {{ form_label(form.nom, 'Nom') }}
+            {{ form_widget(form.nom ,{'attr':{'placeholder': 'Nom du contact'}}) }}
+        </div>
+        <div class="col-8" id="some-custom-id">
+            
+    
+{% endblock %}

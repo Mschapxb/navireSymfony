@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class AisShipTypeController extends AbstractController
 {
     /**
-     * @Route("/voirtous", name="voirtous"}
+     * @Route("/voirtous", name="voirtous")
      */
     public function voirTous(): Response
    {
